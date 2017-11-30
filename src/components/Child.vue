@@ -1,5 +1,7 @@
 <template>
-  <GrandChild @click="$emit('click')"/>
+  <div>
+    <GrandChild @click="$emit('click')"/>
+  </div>
 </template>
 
 <script>
