@@ -20,7 +20,7 @@ describe('HelloWorld.vue', () => {
     store = new Vuex.Store({
       actions
     })
-    wrapper = mount(HelloWorld, { store })
+    wrapper = mount(HelloWorld, { store, localVue })
   })
 
   it('should dispatch action', () => {
